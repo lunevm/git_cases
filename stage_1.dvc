@@ -1,0 +1,13 @@
+md5: 75529d2fe28a9dbc6132f614fd2eb1d9
+cmd: python prepare_file_1.py
+deps:
+- md5: 9323c0a1d0f8e5f0e9bed7e69e1f4fb3
+  path: prepare_file_1.py
+- md5: 7e034138dc91aa575d929c1ed65aa67c
+  path: data/file_0.csv
+outs:
+- md5: a10dd83e6a555f7d259835c7610f5b2a
+  path: data/file_1.csv
+  cache: true
+  metric: false
+  persist: false
